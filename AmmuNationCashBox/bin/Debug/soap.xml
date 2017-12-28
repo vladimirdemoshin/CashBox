@@ -1,0 +1,40 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Check id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/AmmuNationCashBox/AmmuNationCashBox%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<номерЧека>2</номерЧека>
+<датаЧека>2016-05-10T00:00:00.0000000+03:00</датаЧека>
+<номерКлиентскойКарты>1</номерКлиентскойКарты>
+<фиоКассира id="ref-3">Демошин Владимир Андреевич</фиоКассира>
+<общаяСтоимость>195500</общаяСтоимость>
+<list href="#ref-4"/>
+</a1:Check>
+<a2:ArrayList id="ref-4" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-5"/>
+<_size>3</_size>
+<_version>3</_version>
+</a2:ArrayList>
+<SOAP-ENC:Array id="ref-5" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-6"/>
+<item href="#ref-7"/>
+<item href="#ref-8"/>
+</SOAP-ENC:Array>
+<a1:CheckZ id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/AmmuNationCashBox/AmmuNationCashBox%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<названиеТовара id="ref-9">Катана</названиеТовара>
+<ценаТовара>10000</ценаТовара>
+<количество>3</количество>
+<стоимость>25500</стоимость>
+</a1:CheckZ>
+<a1:CheckZ id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/AmmuNationCashBox/AmmuNationCashBox%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<названиеТовара id="ref-10">АК-47</названиеТовара>
+<ценаТовара>50000</ценаТовара>
+<количество>2</количество>
+<стоимость>85000</стоимость>
+</a1:CheckZ>
+<a1:CheckZ id="ref-8" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/AmmuNationCashBox/AmmuNationCashBox%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<названиеТовара id="ref-11">ППШ</названиеТовара>
+<ценаТовара>25000</ценаТовара>
+<количество>4</количество>
+<стоимость>85000</стоимость>
+</a1:CheckZ>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
